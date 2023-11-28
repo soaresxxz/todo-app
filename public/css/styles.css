@@ -28,6 +28,7 @@ body.dark{
     --bg-header-desktop: url(../imagens/bg-header-desktop-dark.png); 
     --input-box-shadow: rgba(0 , 0 , 0 , 0.50);
     --input-color: #c8cbe7;
+    --input-bg: #25273D;
     --placeholder-color: #767992;
     --button-color-hover: #494C6B;
     --button-color: #494C6B;
@@ -86,6 +87,7 @@ header form input{
     width: 100%;
     outline: none;
     font-size: 0.75rem;
+    background: var(--input-bg);
     
 }
 
